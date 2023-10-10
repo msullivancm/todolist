@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import io.micrometer.core.ipc.http.HttpSender.Response;
+
+import org.springframework.http.ResponseEntity;
+
 @RestController
 @RequestMapping("/users")
 public class UserController {
@@ -14,15 +18,15 @@ public class UserController {
     private IUserRepository userRepository;
 
     @PostMapping("/create")
-    public UserModel create(@RequestBody UserModel userModel) {
+    public ResponseEntity create(@RequestBody UserModel userModel) {
         System.out.println(userModel.getName());
         var user = userRepository.findByUsername(userModel.getUsername());
         if(user != null && user.size() > 0) {
             System.out.println("User already exists");
-            return null;
+            return ResponseEntity.badRequest().body("User already exists");
         } else {
             var userCreated = this.userRepository.save(userModel);
-            return userCreated;
+            return ResponseEntity.ok(userCreated);
         }
     }
 }
