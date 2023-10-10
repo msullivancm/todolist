@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import io.micrometer.core.ipc.http.HttpSender.Response;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 @RestController
@@ -26,7 +27,7 @@ public class UserController {
             return ResponseEntity.badRequest().body("User already exists");
         } else {
             var userCreated = this.userRepository.save(userModel);
-            return ResponseEntity.ok(userCreated);
+            return ResponseEntity.status(HttpStatus.CREATED).body(userCreated);
         }
     }
 }
