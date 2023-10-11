@@ -1,0 +1,13 @@
+mvn versions:update-parent
+
+mvn versions:update-properties
+
+mvn versions:commit
+
+
+#Atualizar versão dos dependencias do projeto
+mvn versions:use-latest-releases
+
+#Reverter atualizações
+mvn versions:revert
+
