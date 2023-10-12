@@ -1,0 +1,13 @@
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/DocumentosPessoais/gdrivetopen.ffs_gui
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Clientes/Caberj/ProjetoMosia/APIs Padrão do Protheus.postman_collection.json
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Clientes/Caberj/ProjetoMosia/APIWhatsappWeb.postman_collection.json
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Clientes/Caberj/ProjetoMosia/Python.postman_collection.json
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Clientes/Caberj/ProjetoMosia/atuProdPyFlutter.postman_collection.json
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Clientes/Caberj/ProjetoMosia/ApiRestPython-Local.postman_collection.json
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Clientes/Caberj/ProjetoMosia/ApiRestPython-Server Pela Internet.postman_collection.json
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Clientes/Caberj/ProjetoMosia/OmniLink Teste Pela Internet.postman_collection.json
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Clientes/Caberj/ProjetoMosia/CABERJ_RestAPI_Mosia.postman_collection.json
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Clientes/Caberj/DBeaverProject/Caberj-20231005.dbp
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Clientes/UlhoaCanto/AcessoUlhoaCanto.txt
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Comprovantes/_Trabalho/Pagamento/TIBrasil/202310/2023-10-09-15-03-09-284-receipt.pdf
+/home/sullivan/Insync/eu@marcussullivan.com/OneDrive/MeusDocumentos/Comprovantes/_Trabalho/Pagamento/TIBrasil/202310/20231009.DAS.pdf
